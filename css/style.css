@@ -1,0 +1,99 @@
+/* ###########################################################################################
+######################################## SMARTPHONE ##########################################
+############################################################################################ */
+header {
+	background-color: #EF6A39;
+	padding: 2px;
+	padding: auto;
+
+} 
+
+header nav li {
+	display: inline;
+	list-style: none;
+	padding: 0 px;
+}
+
+a nav {
+	display: inline;
+
+}
+
+header nav li a {
+	color: white;
+}
+
+.block {
+	display: block;
+	margin-left: 25px;
+	padding-left: 60px;
+}
+
+.button1 {
+	background: #4183d7;
+	color: white;
+	height: 40px;
+}
+
+.button2 {
+	background: white;
+	color: white;
+	height: 40px;
+	text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_region li {
+
+}
+
+div nav li {
+	list-style: none;
+	text-align: right;
+}
+
+div p {
+	text-align: center;
+}
+
+footer {
+	background-color: #474747;
+}
+.nav_footer {
+	display: inline-block;
+	color: white;
+	padding: 0%;
+	list-style: none;
+	margin-right: 80px;
+
+}
+
+/* ###########################################################################################
+######################################## tablets #############################################
+############################################################################################ */
+
+@media screen and (min-width: 450px) {
+
+.block {
+	display: block;
+	margin-left: 25px;
+	padding-left: 60px;
+}
+}
+
+/* ###########################################################################################
+######################################## Desktop #############################################
+############################################################################################ */
+
+@media screen and (min-width: 900px) {
+
+.block {
+	display: inline-block;
+	margin-left: 25px;
+	padding-left: 60px;
+}
+
+}
